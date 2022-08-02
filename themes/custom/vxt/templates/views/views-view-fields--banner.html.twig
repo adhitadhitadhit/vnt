@@ -1,0 +1,28 @@
+
+
+<div class="row">
+    <div class="col-xs-12 project">
+            <div class="img-overlay  style="text-align:center;"">
+{{ view.field.field_image_banner.original_value }}
+                <div class="project-overlay"> 
+               
+      	</span>
+    </div>
+</form>
+                 <div class="text" style="text-align:center;">
+                <h2>{{ view.field.title.original_value }}</h2>
+                 <form action="{{ base_url }}/search/node" method="get" id="search-block-form" accept-charset="UTF-8" role="form">
+	<div class="input-group">
+    	{# <label for="edit-keys" class="visually-hidden">Search</label> #}
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-control" />
+        <span class="input-group-btn">
+	        <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+	        </button>
+                <p>{{ view.field.field_subtitle.original_value }}
+</p>
+            </div></div>
+            </div>
+          
+    </div>
+  
+</div>
